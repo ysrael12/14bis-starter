@@ -24,13 +24,18 @@ def fazerbackup ():
     #realizando o login na plataforma
     password = driver.find_element(By.NAME, 'password')
     username = driver.find_element(By.NAME, 'username')
-    username.send_keys("meme")
-    password.send_keys("aipaipara")
+    username.send_keys("ysrael.jesus")
+    password.send_keys("ysraelop12")
     subbutton = driver.find_element(By.TAG_NAME, 'button')
     subbutton.click()
 
+    #realizando o backup
+    driver.get(andress+'?action=administration_maintenance')
+    backupBtn = driver.find_element(By.LINK_TEXT, "Gerar backup completo")
+    backupBtn.click()
+
     # Aguardar um tempo antes de fechar o navegador
-    time.sleep(5)
+    time.sleep(60)
 
     # Fechar o navegador
     driver.quit()
