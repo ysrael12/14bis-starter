@@ -2624,9 +2624,17 @@
    'C:\\Users\\Ysrael and '
    'Yossef\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\__init__.py',
    'PYMODULE'),
+  ('tkinter.commondialog',
+   'C:\\Users\\Ysrael and '
+   'Yossef\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
   ('tkinter.constants',
    'C:\\Users\\Ysrael and '
    'Yossef\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('tkinter.messagebox',
+   'C:\\Users\\Ysrael and '
+   'Yossef\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\messagebox.py',
    'PYMODULE'),
   ('token',
    'C:\\Users\\Ysrael and '
